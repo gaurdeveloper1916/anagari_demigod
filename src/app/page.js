@@ -1,13 +1,20 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import backgroundImage from '../app/assets/model-demonstrating-earrings-ring.jpg';
-import logo_image from '../app/assets/anagari-removebg-preview.png'
+// import logo_image from '../app/assets/anagari-removebg-preview.png'
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 export default function Home() {
   return (
     <div className="h-[100vh] bg-cover bg-center" style={{ backgroundImage: `url(${backgroundImage.src})` }}>
-      <Image
+      {/* <Image
         src={logo_image}
+        width={300}
+        height={100}
+        alt="Logo"
+        className='px-2'
+      /> */}
+        <img
+        src='/anagari-removebg-preview.png'
         width={300}
         height={100}
         alt="Logo"
